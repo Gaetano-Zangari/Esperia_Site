@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Esperia Verona — Campi da calcetto e tennis, bar</title>
+  <meta name="description" content="Campi da calcio a 5, tennis e futnet in Via Marin Faliero 98 a Verona, con bar e terrazza per il terzo tempo. Prenota campo o tavolo dall'app.">
+  <meta name="theme-color" content="#06142B">
+  <link rel="canonical" href="https://www.esperiaverona.it/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="it_IT">
+  <meta property="og:title" content="Esperia Verona — Il campo è acceso">
+  <meta property="og:description" content="Calcetto, tennis e bar a Verona. Prenota dall'app.">
+  <meta property="og:image" content="https://www.esperiaverona.it/assets/img/brand/og-esperia.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <link rel="icon" href="assets/img/brand/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="assets/img/brand/apple-touch-icon.png">
+
+  <link rel="preload" as="image" type="image/webp"
+        imagesrcset="assets/img/hero/hero-calcetto-sera-ai-480.webp 480w, assets/img/hero/hero-calcetto-sera-ai-800.webp 800w, assets/img/hero/hero-calcetto-sera-ai-1200.webp 1200w, assets/img/hero/hero-calcetto-sera-ai-1920.webp 1920w"
+        imagesizes="100vw" fetchpriority="high">
+  <link rel="preload" as="font" type="font/woff2" href="assets/fonts/barlow-condensed-800.woff2" crossorigin>
+  <link rel="preload" as="font" type="font/woff2" href="assets/fonts/barlow-400.woff2" crossorigin>
+
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+
+  <script>document.documentElement.classList.add("js");</script>
+  <script src="assets/js/main.js" defer></script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SportsActivityLocation",
+    "name": "Esperia a.s.d. — Campi da calcetto e da tennis",
+    "image": "https://www.esperiaverona.it/assets/img/brand/og-esperia.jpg",
+    "telephone": "+39 351 829 5167",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Via Marin Faliero, 98",
+      "addressLocality": "Verona",
+      "addressCountry": "IT"
+    },
+    "sameAs": ["https://www.instagram.com/esperiaverona/"]
+  }
+  </script>
+</head>
+<body>
+  <a class="salta-contenuto" href="#scegli">Vai ai contenuti</a>
+
+  <!-- 1. INTESTAZIONE -->
+  <header id="intestazione" class="intestazione" data-js="intestazione">
+    <div class="intestazione__contenitore contenitore">
+      <a class="intestazione__marchio" href="#hero" aria-label="Esperia, torna all'inizio">
+        <img class="intestazione__logo" src="assets/img/brand/logo-esperia.webp" alt="" width="44" height="44">
+        <span class="intestazione__nome">Esperia</span>
+      </a>
+      <nav class="intestazione__nav" aria-label="Sezioni">
+        <a href="#campi">Campi</a>
+        <a href="#bar">Bar</a>
+        <a href="#come-funziona">Come funziona</a>
+        <a href="#dove-siamo">Dove siamo</a>
+      </nav>
+      <a class="bottone bottone--primario bottone--piccolo" href="#app" data-app="calcetto">Prenota</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- 2. HERO -->
+    <section id="hero" class="sezione sezione--hero hero" aria-labelledby="hero-titolo" data-js="hero">
+      <div class="hero__media">
+        <img class="hero__immagine"
+             src="assets/img/hero/hero-calcetto-sera-ai-800.webp"
+             srcset="assets/img/hero/hero-calcetto-sera-ai-480.webp 480w, assets/img/hero/hero-calcetto-sera-ai-800.webp 800w, assets/img/hero/hero-calcetto-sera-ai-1200.webp 1200w, assets/img/hero/hero-calcetto-sera-ai-1920.webp 1920w"
+             sizes="100vw" width="800" height="447"
+             alt="Campo da calcetto di Esperia illuminato dai fari, di sera"
+             fetchpriority="high" decoding="async">
+        <video class="hero__video" data-js="hero-video" muted playsinline loop preload="none" aria-hidden="true" tabindex="-1"
+               data-webm-piccolo="assets/video/hero-calcetto-sera-ai-854.webm"
+               data-mp4-piccolo="assets/video/hero-calcetto-sera-ai-854.mp4"
+               data-webm-grande="assets/video/hero-calcetto-sera-ai-1280.webm"
+               data-mp4-grande="assets/video/hero-calcetto-sera-ai-1280.mp4"></video>
+        <div class="hero__velatura" aria-hidden="true"></div>
+        <div class="hero__strisce" aria-hidden="true"><span></span><span></span><span></span></div>
+      </div>
+
+      <div class="hero__contenuto contenitore">
+        <p class="etichetta hero__etichetta">Calcio a 5 · Tennis · Futnet · Bar</p>
+        <h1 id="hero-titolo" class="hero__titolo">Il campo<br>è <span class="hero__evidenza">acceso.</span></h1>
+        <p class="hero__testo">Calcetto e tennis in Via Marin Faliero, con il bar per il terzo tempo. Scegli campo e orario dall'app e scendi in campo.</p>
+        <div class="hero__azioni">
+          <a class="bottone bottone--primario" href="#app" data-app="calcetto">
+            Prenota un campo
+            <svg class="icona" aria-hidden="true"><use href="assets/icons/sprite.svg#icona-freccia"/></svg>
+          </a>
+          <a class="bottone bottone--secondario" href="#app" data-app="bar">Prenota un tavolo</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="nastro" aria-hidden="true">
+      <div class="nastro__binario">
+        <span>Calcio a 5</span><span>Tennis</span><span>Futnet</span><span>Terzo tempo</span><span>Luci accese</span>
+        <span>Calcio a 5</span><span>Tennis</span><span>Futnet</span><span>Terzo tempo</span><span>Luci accese</span>
+        <span>Calcio a 5</span><span>Tennis</span><span>Futnet</span><span>Terzo tempo</span><span>Luci accese</span>
+        <span>Calcio a 5</span><span>Tennis</span><span>Futnet</span><span>Terzo tempo</span><span>Luci accese</span>
+      </div>
+    </div>
+
+    <!-- 3. SCEGLI -->
+    <section id="scegli" class="sezione sezione--scegli scegli" aria-labelledby="scegli-titolo">
+      <div class="contenitore">
+        <header class="intestazione-sezione" data-js="rivela">
+          <p class="etichetta">Scegli</p>
+          <h2 id="scegli-titolo" class="titolo-sezione">Cosa si gioca<br>stasera?</h2>
+        </header>
+
+        <ul class="scegli__lista" role="list">
+          <li class="scegli__voce" data-js="rivela">
+            <a class="scegli__card" href="#app" data-app="calcetto">
+              <img class="scegli__immagine" src="assets/img/campi/campi-calcetto-partita-ai-800.webp"
+                   srcset="assets/img/campi/campi-calcetto-partita-ai-480.webp 480w, assets/img/campi/campi-calcetto-partita-ai-800.webp 800w"
+                   sizes="(min-width: 960px) 30vw, 100vw" width="800" height="447" alt="" loading="lazy" decoding="async">
+              <span class="scegli__numero" aria-hidden="true">01</span>
+              <span class="scegli__corpo">
+                <svg class="icona icona--grande" aria-hidden="true"><use href="assets/icons/sprite.svg#icona-pallone"/></svg>
+                <span class="scegli__nome">Calcetto</span>
+                <span class="scegli__testo">Calcio a 5 su erba sintetica, con i fari accesi fino a sera.</span>
+                <span class="scegli__azione">Prenota il campo <svg class="icona" aria-hidden="true"><use href="assets/icons/sprite.svg#icona-freccia"/></svg></span>
+              </span>
+            </a>
+          </li>
+          <li class="scegli__voce" data-js="rivela">
+            <a class="scegli__card" href="#app" data-app="tennis">
+              <img class="scegli__immagine" src="assets/img/campi/campi-tennis-giorno-800.webp"
+                   srcset="assets/img/campi/campi-tennis-giorno-480.webp 480w, assets/img/campi/campi-tennis-giorno-800.webp 800w"
+                   sizes="(min-width: 960px) 30vw, 100vw" width="800" height="576" alt="" loading="lazy" decoding="async">
+              <span class="scegli__numero" aria-hidden="true">02</span>
+              <span class="scegli__corpo">
+                <svg class="icona icona--grande" aria-hidden="true"><use href="assets/icons/sprite.svg#icona-racchetta"/></svg>
+                <span class="scegli__nome">Tennis</span>
+                <span class="scegli__testo">Campo in erba sintetica, per il singolo e per il doppio.</span>
+                <span class="scegli__azione">Prenota il campo <svg class="icona" aria-hidden="true"><use href="assets/icons/sprite.svg#icona-freccia"/></svg></span>
+              </span>
+            </a>
+          </li>
+          <li class="scegli__voce" data-js="rivela">
+            <a class="scegli__card" href="#app" data-app="bar">
+              <img class="scegli__immagine" src="assets/img/bar/bar-bancone-trofei-01-ritocco-800.webp"
+                   srcset="assets/img/bar/bar-bancone-trofei-01-ritocco-480.webp 480w, assets/img/bar/bar-bancone-trofei-01-ritocco-800.webp 800w"
+                   sizes="(min-width: 960px) 30vw, 100vw" width="800" height="448" alt="" loading="lazy" decoding="async">
+              <span class="scegli__numero" aria-hidden="true">03</span>
+              <span class="scegli__corpo">
+                <svg class="icona icona--grande" aria-hidden="true"><use href="assets/icons/sprite.svg#icona-boccale"/></svg>
+                <span class="scegli__nome">Bar</span>
+                <span class="scegli__testo">Caffè, birra fresca e qualcosa da mangiare, prima o dopo la partita.</span>
+                <span class="scegli__azione">Prenota un tavolo <svg class="icona" aria-hidden="true"><use href="assets/icons/sprite.svg#icona-freccia"/></svg></span>
+              </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 4. CAMPI -->
+    <section id="campi" class="sezione sezione--campi campi" aria-labelledby="campi-titolo">
+      <svg class="campi__linee" viewBox="0 0 400 400" aria-hidden="true" focusable="false">
+        <circle cx="200" cy="200" r="120"/><path d="M200 0v400"/><circle cx="200" cy="200" r="4"/>
+      </svg>
+      <div class="contenitore">
+        <header class="intestazione-sezione" data-js="rivela">
+          <p class="etichetta">I campi</p>
+          <h2 id="campi-titolo" class="titolo-sezione">Erba sintetica,<br>fari, rete alta.</h2>
+          <p class="intestazione-sezione__testo">Campi recintati e illuminati, a pochi passi dal bar. Disponibilità e orari sono sempre aggiornati nell'app.</p>
+        </header>
+
+        <article class="campi__scheda" aria-labelledby="campi-calcetto" data-js="rivela">
+          <figure class="campi__figura">
+            <img src="assets/img/campi/campi-calcetto-giorno-ai-800.webp"
+                 srcset="assets/img/campi/campi-calcetto-giorno-ai-480.webp 480w, assets/img/campi/campi-calcetto-giorno-ai-800.webp 800w, assets/img/campi/campi-calcetto-giorno-ai-1200.webp 1200w"
+                 sizes="(min-width: 960px) 58vw, 100vw" width="800" height="447"
+                 alt="Campo da calcetto in erba sintetica visto attraverso la recinzione, con i palazzi del quartiere sullo sfondo"
+                 loading="lazy" decoding="async">
+          </figure>
+          <div class="campi__testo">
+            <p class="campi__sport" aria-hidden="true">Calcetto</p>
+            <h3 id="campi-calcetto" class="campi__titolo">Calcio a 5 e futnet</h3>
+            <ul class="campi__dettagli" role="list">
+              <li><svg class="icona" aria-hidden="true"><use href="assets/icons/sprite.svg#icona-pallone"/></svg>Erba sintetica, linee da calcio a 5</li>
+              <li><svg class="icona" aria-hidden="true"><use href="assets/icons/sprite.svg#icona-faro"/></svg>Fari per giocare anche la sera</li>
+              <li><svg class="icona" aria-hidden="true"><use href="assets/icons/sprite.svg#icona-calendario"/></svg>Prenoti l'orario dall'app</li>
+            </ul>
+            <a class="bottone bottone--primario" href="#app" data-app="calcetto">Prenota il calcetto</a>
+          </div>
+        </article>
+
+        <article class="campi__scheda campi__scheda--inversa" aria-labelledby="campi-tennis" data-js="rivela">
+          <figure class="campi__figura">
+            <img src="assets/img/campi/campi-tennis-giorno-800.webp"
+                 srcset="assets/img/campi/campi-tennis-giorno-480.webp 480w, assets/img/campi/campi-tennis-giorno-800.webp 800w, assets/img/campi/campi-tennis-giorno-1080.webp 1080w"
+                 sizes="(min-width: 960px) 58vw, 100vw" width="800" height="576"
+                 alt="Campo da tennis in erba sintetica con rete e fari, in una giornata di sole"
+                 loading="lazy" decoding="async">
+          </figure>
+          <div class="campi__testo">
+            <p class="campi__sport" aria-hidden="true">Tennis</p>
+            <h3 id="campi-tennis" class="campi__titolo">Tennis all'aperto</h3>
+            <ul class="campi__dettagli" role="list">
+              <li><svg class="icona" aria-hidden="true"><use href="assets/icons/sprite.svg#icona-racchetta"/></svg>Erba sintetica, linee da singolo e doppio</li>
+              <li><svg class="icona" aria-hidden="true"><use href="assets/icons/sprite.svg#icona-faro"/></svg>Campo recintato e illuminato</li>
+              <li><svg class="icona" aria-hidden="true"><use href="assets/icons/sprite.svg#icona-calendario"/></svg>Prenoti l'orario dall'app</li>
+            </ul>
+            <a class="bottone bottone--primario" href="#app" data-app="tennis">Prenota il tennis</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- 5. BAR -->
+    <section id="bar" class="sezione sezione--bar bar" aria-labelledby="bar-titolo">
+      <div class="contenitore bar__griglia">
+        <header class="intestazione-sezione bar__intestazione" data-js="rivela">
+          <p class="etichetta">Il bar</p>
+          <h2 id="bar-titolo" class="titolo-sezione">Il terzo tempo<br>si gioca qui.</h2>
+          <p class="intestazione-sezione__testo">Dopo la partita si resta. Il bancone, il caffè, una birra fresca e la terrazza con i lampioni accesi. Prenota il tavolo dall'app, anche per tutta la squadra.</p>
+          <a class="bottone bottone--primario" href="#app" data-app="bar">Prenota un tavolo</a>
+        </header>
+
+        <figure class="bar__foto bar__foto--grande" data-js="rivela">
+          <img src="assets/img/bar/bar-bancone-trofei-02-ritocco-800.webp"
+               srcset="assets/img/bar/bar-bancone-trofei-02-ritocco-480.webp 480w, assets/img/bar/bar-bancone-trofei-02-ritocco-800.webp 800w, assets/img/bar/bar-bancone-trofei-02-ritocco-1200.webp 1200w"
+               sizes="(min-width: 960px) 55vw, 100vw" width="800" height="448"
+               alt="Il bancone del bar con le coppe sugli scaffali e le lampade in rame"
+               loading="lazy" decoding="async">
+        </figure>
+        <figure class="bar__foto" data-js="rivela">
+          <img src="assets/img/bar/bar-terrazza-sera-800.webp"
+               srcset="assets/img/bar/bar-terrazza-sera-480.webp 480w, assets/img/bar/bar-terrazza-sera-800.webp 800w"
+               sizes="(min-width: 960px) 27vw, 50vw" width="800" height="448"
+               alt="La terrazza esterna di sera, con i lampioni accesi e i tavoli"
+               loading="lazy" decoding="async">
+        </figure>
+        <figure class="bar__foto" data-js="rivela">
+          <img src="assets/img/bar/bar-macchina-caffe-ritocco-800.webp"
+               srcset="assets/img/bar/bar-macchina-caffe-ritocco-480.webp 480w, assets/img/bar/bar-macchina-caffe-ritocco-800.webp 800w"
+               sizes="(min-width: 960px) 27vw, 50vw" width="800" height="448"
+               alt="La macchina del caffè a due gruppi sul bancone"
+               loading="lazy" decoding="async">
+        </figure>
+      </div>
+    </section>
+
+    <!-- 6. COME FUNZIONA -->
+    <section id="come-funziona" class="sezione sezione--come-funziona come-funziona" aria-labelledby="come-funziona-titolo">
+      <div class="contenitore">
+        <header class="intestazione-sezione" data-js="rivela">
+          <p class="etichetta">Come funziona</p>
+          <h2 id="come-funziona-titolo" class="titolo-sezione">Tre passi<br>e sei in campo.</h2>
+        </header>
+        <ol class="come-funziona__passi" role="list">
+          <li class="come-funziona__passo" data-js="rivela">
+            <span class="come-funziona__numero" aria-hidden="true">1</span>
+            <svg class="icona icona--grande" aria-hidden="true"><use href="assets/icons/sprite.svg#icona-telefono-app"/></svg>
+            <h3 class="come-funziona__titolo">Scarica l'app</h3>
+            <p>Gratis su iPhone e Android.</p>
+          </li>
+          <li class="come-funziona__passo" data-js="rivela">
+            <span class="come-funziona__numero" aria-hidden="true">2</span>
+            <svg class="icona icona--grande" aria-hidden="true"><use href="assets/icons/sprite.svg#icona-calendario"/></svg>
+            <h3 class="come-funziona__titolo">Scegli campo e ora</h3>
+            <p>Calcetto, tennis o tavolo al bar: vedi cosa è libero e prenoti.</p>
+          </li>
+          <li class="come-funziona__passo" data-js="rivela">
+            <span class="come-funziona__numero" aria-hidden="true">3</span>
+            <svg class="icona icona--grande" aria-hidden="true"><use href="assets/icons/sprite.svg#icona-pallone"/></svg>
+            <h3 class="come-funziona__titolo">Gioca</h3>
+            <p>Presentati in Via Marin Faliero 98. Il resto si decide in campo.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- 7. GALLERIA -->
+    <section id="galleria" class="sezione sezione--galleria galleria" aria-labelledby="galleria-titolo">
+      <div class="contenitore">
+        <header class="intestazione-sezione" data-js="rivela">
+          <p class="etichetta">Galleria</p>
+          <h2 id="galleria-titolo" class="titolo-sezione">Dentro Esperia.</h2>
+        </header>
+      </div>
+      <ul class="galleria__striscia" role="list" tabindex="0" aria-label="Foto del centro, scorri in orizzontale">
+        <li class="galleria__voce">
+          <img src="assets/img/bar/bar-terrazza-panche-800.webp"
+               srcset="assets/img/bar/bar-terrazza-panche-480.webp 480w, assets/img/bar/bar-terrazza-panche-800.webp 800w"
+               sizes="(min-width: 960px) 480px, 82vw" width="800" height="448"
+               alt="Tavoli e panche in legno sulla terrazza, al tramonto" loading="lazy" decoding="async">
+        </li>
+        <li class="galleria__voce">
+          <img src="assets/img/bar/bar-bancone-trofei-01-ritocco-800.webp"
+               srcset="assets/img/bar/bar-bancone-trofei-01-ritocco-480.webp 480w, assets/img/bar/bar-bancone-trofei-01-ritocco-800.webp 800w"
+               sizes="(min-width: 960px) 480px, 82vw" width="800" height="448"
+               alt="Il bancone curvo in granito con la macchina del caffè" loading="lazy" decoding="async">
+        </li>
+        <li class="galleria__voce">
+          <img src="assets/img/campi/campi-bordo-campo-800.webp"
+               srcset="assets/img/campi/campi-bordo-campo-480.webp 480w, assets/img/campi/campi-bordo-campo-800.webp 800w"
+               sizes="(min-width: 960px) 480px, 82vw" width="800" height="448"
+               alt="Le panchine a bordo campo dietro la recinzione" loading="lazy" decoding="async">
+        </li>
+        <li class="galleria__voce">
+          <img src="assets/img/bar/bar-terrazza-tavoli-ritocco-800.webp"
+               srcset="assets/img/bar/bar-terrazza-tavoli-ritocco-480.webp 480w, assets/img/bar/bar-terrazza-tavoli-ritocco-800.webp 800w"
+               sizes="(min-width: 960px) 480px, 82vw" width="800" height="448"
+               alt="Tavolini e sedie colorate in terrazza, nel sole del pomeriggio" loading="lazy" decoding="async">
+        </li>
+        <li class="galleria__voce">
+          <img src="assets/img/dove-siamo/dove-siamo-insegna-800.webp"
+               srcset="assets/img/dove-siamo/dove-siamo-insegna-480.webp 480w, assets/img/dove-siamo/dove-siamo-insegna-800.webp 800w"
+               sizes="(min-width: 960px) 480px, 82vw" width="800" height="448"
+               alt="L'insegna dei campi con gli ombrelloni del bar dietro" loading="lazy" decoding="async">
+        </li>
+      </ul>
+    </section>
+
+    <!-- 8. VOCI: sezione opzionale, da aggiungere solo con recensioni reali -->
+
+    <!-- 9. APP -->
+    <section id="app" class="sezione sezione--app app" aria-labelledby="app-titolo">
+      <div class="contenitore app__griglia">
+        <div class="app__testo" data-js="rivela">
+          <p class="etichetta">L'app</p>
+          <h2 id="app-titolo" class="titolo-sezione">Il campo<br>in tasca.</h2>
+          <p class="intestazione-sezione__testo">Con l'app di Esperia vedi i campi liberi e prenoti calcetto, tennis o il tavolo al bar dal telefono.</p>
+          <div class="app__store">
+            <a class="bottone bottone--primario" href="#app" data-app="ios">
+              <svg class="icona" aria-hidden="true"><use href="assets/icons/sprite.svg#icona-telefono-app"/></svg>
+              Scarica per iPhone
+            </a>
+            <a class="bottone bottone--primario" href="#app" data-app="android">
+              <svg class="icona" aria-hidden="true"><use href="assets/icons/sprite.svg#icona-telefono-app"/></svg>
+              Scarica per Android
+            </a>
+          </div>
+        </div>
+        <ul class="app__vantaggi" role="list" data-js="rivela">
+          <li><span class="app__vantaggio-numero">01</span>Vedi subito cosa è libero</li>
+          <li><span class="app__vantaggio-numero">02</span>Prenoti campo o tavolo</li>
+          <li><span class="app__vantaggio-numero">03</span>Hai tutto sul telefono</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 10. DOVE SIAMO -->
+    <section id="dove-siamo" class="sezione sezione--dove-siamo dove-siamo" aria-labelledby="dove-siamo-titolo">
+      <div class="contenitore dove-siamo__griglia">
+        <div class="dove-siamo__info" data-js="rivela">
+          <p class="etichetta">Dove siamo</p>
+          <h2 id="dove-siamo-titolo" class="titolo-sezione">Via Marin<br>Faliero, 98.</h2>
+          <address class="dove-siamo__indirizzo">
+            <p><svg class="icona" aria-hidden="true"><use href="assets/icons/sprite.svg#icona-pin"/></svg>Via Marin Faliero, 98 — Verona</p>
+            <p><svg class="icona" aria-hidden="true"><use href="assets/icons/sprite.svg#icona-telefono"/></svg><a href="tel:+393518295167">351 82 95 167</a></p>
+          </address>
+          <div class="dove-siamo__azioni">
+            <a class="bottone bottone--secondario" href="https://www.google.com/maps/search/?api=1&amp;query=Via+Marin+Faliero+98+Verona" target="_blank" rel="noopener">
+              Apri in Maps
+              <svg class="icona" aria-hidden="true"><use href="assets/icons/sprite.svg#icona-freccia"/></svg>
+            </a>
+            <a class="bottone bottone--secondario" href="tel:+393518295167">Chiama</a>
+          </div>
+        </div>
+        <figure class="dove-siamo__foto" data-js="rivela">
+          <img src="assets/img/dove-siamo/dove-siamo-ingresso-800.webp"
+               srcset="assets/img/dove-siamo/dove-siamo-ingresso-480.webp 480w, assets/img/dove-siamo/dove-siamo-ingresso-800.webp 800w, assets/img/dove-siamo/dove-siamo-ingresso-1200.webp 1200w"
+               sizes="(min-width: 960px) 55vw, 100vw" width="800" height="448"
+               alt="L'ingresso del bar al civico 98, con la terrazza e gli ombrelloni" loading="lazy" decoding="async">
+          <figcaption>L'ingresso del bar, al civico 98.</figcaption>
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <!-- 11. PIE DI PAGINA -->
+  <footer id="pie-di-pagina" class="pie-di-pagina">
+    <div class="contenitore pie-di-pagina__griglia">
+      <div class="pie-di-pagina__marchio">
+        <img src="assets/img/brand/logo-esperia.webp" alt="Logo Esperia a.s.d." width="72" height="72" loading="lazy">
+        <p><strong>Esperia a.s.d.</strong><br>Campi da calcetto e da tennis</p>
+      </div>
+      <ul class="pie-di-pagina__contatti" role="list">
+        <li>Via Marin Faliero, 98 — Verona</li>
+        <li><a href="tel:+393518295167">351 82 95 167</a></li>
+        <li>
+          <a href="https://www.instagram.com/esperiaverona/" target="_blank" rel="noopener">
+            <svg class="icona" aria-hidden="true"><use href="assets/icons/sprite.svg#icona-fotocamera"/></svg>@esperiaverona
+          </a>
+        </li>
+      </ul>
+      <!-- TODO cliente: P.IVA / C.F. dell'associazione e link a privacy.html -->
+      <p class="pie-di-pagina__legale">© 2026 Esperia a.s.d. — Verona</p>
+    </div>
+  </footer>
+
+  <nav class="barra-prenota" data-js="barra-prenota" aria-label="Prenotazione rapida">
+    <a class="bottone bottone--primario" href="#app" data-app="calcetto">Prenota un campo</a>
+    <a class="bottone bottone--secondario" href="#app" data-app="bar">Tavolo</a>
+  </nav>
+</body>
+</html>

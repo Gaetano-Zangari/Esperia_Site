@@ -1,0 +1,13 @@
+# Originali non ottimizzati (foto del cliente, PNG/MP4 dell'AI a piena risoluzione): ~50 MB,
+# non pubblicati. Il sito usa solo le versioni ottimizzate in assets/ (PROGETTO.md §4)
+sorgenti/
+
+# File di sistema ed editor
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# Pagine di prova temporanee
+_prova-*.html

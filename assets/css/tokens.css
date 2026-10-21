@@ -1,0 +1,72 @@
+/* Variabili di progetto: valori esatti da PROGETTO.md §7–§9. Solo variabili in questo file. */
+
+@font-face {
+  font-family: "Barlow Condensed";
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/barlow-condensed-800.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Barlow";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/barlow-400.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Barlow";
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/barlow-600.woff2") format("woff2");
+}
+
+:root {
+  /* Palette */
+  --colore-notte: #06142B;
+  --colore-blu-profondo: #0C3871;
+  --colore-blu: #09458B;
+  --colore-azzurro: #3B91D2;
+  --colore-arancio: #EF6723;
+  --colore-arancio-chiaro: #FF7A3D;
+  --colore-linea: #F5C400;
+  --colore-gesso: #F4F6FA;
+  --colore-nebbia: #9FB0C8;
+  --colore-ombra: rgba(6, 20, 43, 0.72);
+
+  /* Tipografia */
+  --font-display: "Barlow Condensed", "Arial Narrow", sans-serif-condensed, sans-serif;
+  --font-testo: "Barlow", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --testo-display: clamp(3.5rem, 15vw, 7.5rem);
+  --testo-h2: clamp(2.25rem, 7vw, 4.5rem);
+  --testo-h3: clamp(1.5rem, 4vw, 2.25rem);
+  --testo-corpo: 1.0625rem;
+  --testo-piccolo: 0.875rem;
+  --testo-etichetta: 0.8125rem;
+
+  /* Spaziature */
+  --spazio-1: 4px;
+  --spazio-2: 8px;
+  --spazio-3: 12px;
+  --spazio-4: 16px;
+  --spazio-5: 24px;
+  --spazio-6: 32px;
+  --spazio-7: 48px;
+  --spazio-8: 80px;
+  --spazio-sezione: clamp(64px, 12vw, 140px);
+  --larghezza-max: 1280px;
+  --margine-laterale: clamp(16px, 5vw, 48px);
+
+  /* Forme */
+  --raggio: 4px;
+  --raggio-bottone: 999px;
+  --taglio-diagonale: polygon(0 0, 100% 0, 100% calc(100% - 4vw), 0 100%);
+
+  /* Movimento */
+  --durata-breve: 160ms;
+  --durata-media: 320ms;
+  --curva: cubic-bezier(0.2, 0.8, 0.2, 1);
+}
